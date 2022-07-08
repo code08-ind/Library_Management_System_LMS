@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* index design */
+
+.row {
+  border-radius: 10px;
+}
+
+.container,
+.row,
+.h2 {
+  text-align: center;
+}
+
+.login-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-group span {
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.login-form-1 {
+  padding: 5%;
+  border-radius: 10px 0 0 10px;
+  background: #fff;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+  text-align: center;
+  color: #333;
+}
+
+.login-form-2 {
+  padding: 5%;
+  border-radius: 0 10px 10px 0;
+  background: #16df7e !important;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.login-container form {
+  padding: 10%;
+}
+
+.btnSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+  font-weight: 600;
+  color: #fff;
+  background-color: #16df7e;
+}
+
+.login-form-2 .btnSubmit {
+  font-weight: 600;
+  color: #16df7e;
+  background-color: #fff;
+}
+
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+  color: #16df7e !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.onebtn a {
+  outline: none;
+  border: 0;
+  color: rgb(255, 0, 93);
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border: 2px solid rgb(255, 0, 93);
+}
+/* Dashboard Design */
